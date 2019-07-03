@@ -1,9 +1,11 @@
 # Adversarial-Machine-Learning-to-bypass-a-sophisticated-IPS
 
 Stratosphere IPS
+
 The core of the Stratosphere IPS is composed of what we called network behavioral models and detection algorithms. The behavioral models represent what a specific connection does in the network during its life time. The behavior is constructed by analyzing the periodicity, size and duration of each flow. The detection algorithms use our known malicious behavioral models to detect new suspicious connections in the network. The detection is currently done using Markov Chains-based algorithms.
 
 Project Work
+
 Machine learning is gaining traction in the network security do- main as the solution to multiple problems such as the scalability of network administration, security play-book automation, cost reduction for large scale companies, etc. Compromising machine learning model is then a very desirable goal for adversaries. Previ- ous works have been done on adversarial machine learning but not on models being deployed as a network security solution. For the first time, this paper will present vivid illustrations into the steps of attacking a machine learning based network security model within a reputable open-source framework named Stratosphere. The main contribution is our white-box testing algorithms that we used in order to successfully "break" Stratosphere to carry out malicious botnet C&C communication. The algorithms can also be used by other researchers to evaluate the base-line robustness of their machine learning designs.
 
 Refer https://github.com/omkarparth/Adversarial-Machine-Learning-to-bypass-a-sophisticated-IPS/blob/master/Probing_the_Machine_Learning_Network_Defense_Models.pdf for the research paper based on this project. 
